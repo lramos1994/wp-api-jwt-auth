@@ -1,12 +1,14 @@
 {
-    "config": {
-        "vendor-dir": "includes/vendor"
-    },
-    "require": {
-        "firebase/php-jwt": "^3.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.2",
-        "guzzlehttp/guzzle": "^6.1"
-    }
+  "name": "lramos1994/wp-api-jwt-auth",
+  "type": "wordpress-muplugin",
+  "config": {
+    "vendor-dir": "includes/vendor"
+  },
+  "require": {
+    "firebase/php-jwt": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.2",
+    "guzzlehttp/guzzle": "^6.1"
+  }
 }
